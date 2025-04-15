@@ -5,7 +5,7 @@
 
 int PV(vector<MyObj>& , int, int);
 
-main()
+int main()
 {
    srand(time(0));              // keep this line if you want to generate different random objects for each run 
    vector<MyObj> v;
@@ -26,5 +26,7 @@ main()
 	cout << v[i];
    cout << endl;
    cout << PV(v, 0, 9) << endl;
+
+   return 0;
 }
 
